@@ -20,13 +20,13 @@ Includes :
      
   f. Moreover, the shell would:   
   
-        + modify its PATH variable to add the current directory to its list of paths. This way
+        * modify its PATH variable to add the current directory to its list of paths. This way
         one won't have to type the leading dot-slash (./) when running our executables.
         
-        + have a command mylsenv it lists all its environment variables and
+        * have a command mylsenv it lists all its environment variables and
         their values.
         
-        + when typed a string VAR=xxxx on the command prompt, it adds the variable
+        * when typed a string VAR=xxxx on the command prompt, it adds the variable
         VAR to its list of environment variables assigning it the value xxxx. If the variable
         exists already, it overwrites its old value with xxxx. A command
         show VAR displays the value of the variable VAR.
