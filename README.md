@@ -3,6 +3,7 @@
 Includes :
 1. a program in C which emulates the behaviour of Linux cat command.
 2. Implementation of a mini shell of my own. The shell
+
   a. When run, displays a coool prompt of your choosing and prompt the user for input.
   b. When given a command with arguments, it creates a child process and run the command with its arguments. By default it  wait for the 
     command to finish before displaying the prompt again.     
